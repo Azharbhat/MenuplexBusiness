@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "lets_eat_business",
-    "slug": "lets_eat_business",
+    "name": "MenuPlexBusiness",
+    "slug": "MenuPlexBusiness",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.azharbhat.MenuPlex"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "80a45de7-1141-4afc-be47-ed8848f45607"
+      }
     }
   }
 }
